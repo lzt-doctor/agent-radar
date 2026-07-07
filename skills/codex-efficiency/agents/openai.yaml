@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Efficiency"
+  short_description: "Faster, clearer Codex coding workflows"
+  default_prompt: "Use $codex-efficiency to handle this coding task with a tight, verified workflow."
