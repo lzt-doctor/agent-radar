@@ -1,0 +1,49 @@
+{
+  "name": "agent-radar",
+  "version": "0.1.0",
+  "description": "A zero-dependency CLI that spots AI-agent branch overlap, merge risk, and PR readiness before agents collide.",
+  "type": "module",
+  "bin": {
+    "agent-radar": "./bin/agent-radar.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "README.md",
+    "CONTRIBUTING.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./bin/agent-radar.js --demo",
+    "scan": "node ./bin/agent-radar.js scan",
+    "demo:json": "node ./bin/agent-radar.js --demo --json",
+    "demo:html": "node ./bin/agent-radar.js --demo --html agent-radar-report.html",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai-agents",
+    "agentic-coding",
+    "codex",
+    "claude-code",
+    "cursor",
+    "copilot",
+    "developer-tools",
+    "git",
+    "merge-conflicts",
+    "mcp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzt-doctor/agent-radar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lzt-doctor/agent-radar/issues"
+  },
+  "homepage": "https://github.com/lzt-doctor/agent-radar#readme",
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

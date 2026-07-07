@@ -1,0 +1,4 @@
+coverage/
+*.log
+agent-radar-report.html
+.DS_Store
